@@ -4,6 +4,6 @@ basename=${1:-asem}
 
 test -d "build" || mkdir "build"
 
-as "src/${basename}.s" -o "build/${basename}.o"
+nasm -f elf "src/${basename}.asm" -o "build/${basename}.o"
 
-gcc "build/${basename}.o" -o "build/${basename}" -nostdlib -static
+ld -m elf_i386 -s -o "build/${basename}" "build/${basename}.o"
