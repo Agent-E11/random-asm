@@ -5,5 +5,5 @@ unalias r > /dev/null 2>&1
 r () {
     basename=${1:-asem}
     b "$basename"
-    ./build/"${basename}"
+    ./build/"${basename}" # Run compiled executable
 }
