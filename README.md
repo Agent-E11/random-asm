@@ -10,6 +10,8 @@ To find the architecture of your (Linux) system, run `uname -m`.
 
 [Syscall reference](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#x86_64-64-bit).
 
+[Instruction set reference](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)
+
 ## `x86 (32-bit)` Notes
 
 [Syscall reference](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#x86-32-bit).
