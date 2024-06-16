@@ -1,5 +1,22 @@
+## General Notes
 
-## AARCH64 Notes
+Linux system call [reference](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls).
+
+GNU Assembly syntax [reference](https://en.wikibooks.org/wiki/X86_Assembly/GNU_assembly_syntax)
+
+To find the architecture of your (Linux) system, run `uname -m`.
+
+## `x86_64 (64-bit)` Notes
+
+[Syscall reference](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#x86_64-64-bit).
+
+## `x86 (32-bit)` Notes
+
+[Syscall reference](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#x86-32-bit).
+
+## `arm64 (64-bit)` Notes
+
+[Syscall reference](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#arm64-64-bit).
 
 To invoke a system call:
 
@@ -7,5 +24,10 @@ To invoke a system call:
 svc 0
 ```
 
-Syscall table (might work for architectures other than aarch64):
-<https://man7.org/linux/man-pages/man2/lgetxattr.2.html>
+## `arm (32-bit)` Notes
+
+[Syscall reference](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#arm-32-biteabi).
+
+## Windows x64
+
+Interesting article: <https://sonictk.github.io/asm_tutorial>
