@@ -8,3 +8,4 @@ r () {
     # Build and run compiled executable
     b "$1" && ./build/"$(basename -s .asm "$1")"
 }
+alias ec='echo "Exit code: $?"'

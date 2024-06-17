@@ -20,6 +20,8 @@ To find the architecture of your (Linux) system, run `uname -m`.
 
 [Syscall reference](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#arm64-64-bit).
 
+[arm instruction set reference](https://developer.arm.com/documentation/den0024/a/The-A64-instruction-set/Instruction-mnemonics)
+
 To invoke a system call:
 
 ```asm
